@@ -7,8 +7,8 @@ body {
 }
 
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
     color: beige;
     text-shadow: 2px 2px black;
     font-size: 50px;
@@ -17,10 +17,11 @@ h1 {
 
 h2 {
     font-size: 45px;
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 20px;
      color: beige;
     text-shadow: 2px 2px black;
+   
 }
 
 p {
@@ -51,6 +52,6 @@ button {
 
 #add-btn, #order-btn {
     display: block;
-    margin: 24px auto;
+    margin: 32px auto;
     border-radius: 24px;
 }
