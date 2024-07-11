@@ -46,8 +46,13 @@ button {
 }
 
 #add-btn:hover {
-    background: grey;
+    background: whitesmoke;
     color: darkgreen;
+}
+
+#add-btn:active {
+    background: darkgreen;
+    color: white;
 }
 
 #order-btn {
@@ -56,6 +61,11 @@ button {
 
 #order-btn:hover {
     background: black;
+}
+
+#order-btn:active {
+    background: white;
+    color: black;
 }
 
 #add-btn, #order-btn {
