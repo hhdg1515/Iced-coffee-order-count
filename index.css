@@ -39,14 +39,23 @@ button {
     margin-bottom: 5px;
     border-radius: 5px;
 }
-
+    
 #add-btn {
     background: beige;
     color: darkgreen;
 }
 
+#add-btn:hover {
+    background: grey;
+    color: darkgreen;
+}
+
 #order-btn {
     background: darkgreen;
+}
+
+#order-btn:hover {
+    background: black;
 }
 
 #add-btn, #order-btn {
