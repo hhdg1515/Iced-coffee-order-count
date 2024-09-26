@@ -8,8 +8,16 @@ function add() {
 }
 
 function order() {
-    let countStr = count + " - "
+    let countStr = count + " coffee☕"
     saveEl.textContent += countStr
+    countEl.textContent = 0
+    count = 0
+}
+
+
+function cancel() {
+    countStr = "Please start your order"
+    saveEl.textContent = countStr
     countEl.textContent = 0
     count = 0
 }
